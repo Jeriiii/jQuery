@@ -1,0 +1,58 @@
+/*.box {
+	position: relative;
+}
+
+#revealUp {
+	position: absolute;
+	overflow: hidden;
+	display: none;
+	bottom: 0;
+	background-color: #c00;
+	height: 0;
+}*/
+
+.ctverec {
+	height: 30px;
+	width: 500px;
+	background-color: red;
+	margin-bottom: 1px;
+}
+
+.serie_name{
+	height: 20px;
+	width: 20px;
+	background-color: blue;
+	color:white;
+	float: left;
+	border: 2px solid black;
+	text-align: center;
+}
+
+.sedadlo {
+	height: 20px;
+	width: 40px;
+	background-color: green;
+	float: left;
+	border: 2px solid black;
+	text-align: center;
+}
+
+.sedadlo_2 {
+	height: 20px;
+	width: 84px;
+	background-color: green;
+	float: left;
+	border: 2px solid black;
+	text-align: center;
+}
+
+/*
+vynechane misto misto sedadla
+*/
+
+.vynechane_misto {
+	height: 20px;
+	width: 40px;
+	float: left;
+	padding: 2px;
+}

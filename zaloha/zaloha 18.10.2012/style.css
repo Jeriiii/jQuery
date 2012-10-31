@@ -1,0 +1,161 @@
+/*.box {
+	position: relative;
+}
+
+#revealUp {
+	position: absolute;
+	overflow: hidden;
+	display: none;
+	bottom: 0;
+	background-color: #c00;
+	height: 0;
+}*/
+
+.ctverec {
+	height: 55px;
+	width: 500px;
+	background-color: #09121b;
+	padding: 8px 0 0 0;
+	border-bottom: 1px solid white;
+}
+
+.serie_name{
+	margin-top: 13px;
+	margin-right: 10px;
+	height: 20px;
+	width: 20px;
+	background-color: white;
+	color:#09121b;
+	float: left;
+	text-align: center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.sedadlo {
+	height: 41px;
+	width: 55px;
+	background-image: url("images/zlate_jednosedadlo.png");
+	background-repeat: no-repeat;
+	float: left;
+	text-align: center;
+	font-size: 13px;
+	color: white;
+	position: relative;
+}
+
+.box_seat {
+	height: 55px;
+	width: 55px;
+	float: left;
+	text-align: center;
+	font-size: 13px;
+	color: white;
+}
+
+.box_duble_seat {
+	height: 55px;
+	width: 86px;
+	padding:0 12px;
+	float: left;
+	text-align: center;
+	font-size: 13px;
+	color: white;
+}
+
+.sedadlo_2 {
+	height: 41px;
+	width: 85px;
+	/*background-color: green;*/
+	background-image: url("images/zlate_dvojsedadlo.png");
+	float: left;
+	text-align: center;
+}
+
+/*
+vynechane misto misto sedadla
+*/
+
+.vynechane_misto {
+	height: 50px;
+	width: 55px;
+	float: left;
+	padding: 2px;
+	ba
+}
+
+#reserved {
+	display: none;
+}
+
+.selected {
+
+}
+
+#head  {
+	background: url("images/promitacka.png") #09121b bottom no-repeat;
+	background-position: right bottom;
+	padding-left: 630px;
+	height: 95px;
+	width: 10px;
+}
+
+#foot {
+	background-color: #09121b;
+	height: 95px;
+	width: 500px;
+}
+
+#left,  #middle, #right {
+	float: left;
+}
+
+#left, #right {
+	float: left;
+	width:192px;
+	height: 510px;
+	padding: 0 10px;
+	background-color: #09121b;
+	background-repeat: no-repeat;
+}
+
+#left {
+	background-image: url("images/leva_strana_kina.png");
+	background-position: right top;
+}
+
+#right {
+	background-image: url("images/prava_strana_kina.png");
+	background-position: left top;
+}
+
+#middle {
+	padding: 0 20px;
+	background-color: #09121b;
+}
+
+#serie_5 {
+	margin-left: 0;
+	margin-right: 220px;
+}
+
+#serie_4 {
+	margin-left: 55px;
+	margin-right: 165px;
+}
+
+#serie_3 {
+	margin-left: 110px;
+	margin-right: 110px;
+}
+
+#serie_2 {
+	margin-left: 165px;
+	margin-right: 55px;
+}
+
+#serie_1 {
+	margin-left: 220px;
+	margin-right: 0;
+}

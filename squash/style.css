@@ -1,0 +1,73 @@
+#layout {
+	background: url("images/obrazek_kurtu.png") no-repeat;
+	height: 634px;
+	width: 1024px;
+}
+
+.ctverec {
+	padding: 300px 0 0 100px;
+}
+
+.serie_name{
+}
+
+.sedadlo {
+	height: 210px;
+	width: 82px;
+	background-image: url("images/hrac_pri_najeti.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	float: left;
+	text-align: center;
+	font-size: 13px;
+	color: white;
+}
+
+.box_seat {
+	height: 210px;
+	width: 82px;
+	float: left;
+	text-align: center;
+	font-size: 13px;
+	color: white;
+	margin-left: 50px;
+}
+
+.sedadlo_2 {
+}
+
+/*
+vynechane misto misto sedadla
+*/
+
+.vynechane_misto {
+}
+
+#reserved {
+	display: none;
+}
+
+.selected {
+
+}
+
+#head  {
+}
+
+#foot {
+}
+
+#left,  #middle, #right {
+}
+
+#left, #right {
+}
+
+#left {
+}
+
+#right {
+}
+
+#middle {
+}

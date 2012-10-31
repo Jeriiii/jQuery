@@ -1,0 +1,154 @@
+#reserved_system {
+	margin: 0 auto;
+	width: 1185px;
+	background-color: #09121B;
+	/* zaobleni */
+	border-radius: 15px;
+	azimuth: border-radius:15px;
+	-moz-border-radius: 15px ;
+	-webkit-border-radius: 15px;
+	/* vnejsi stin */
+	-moz-box-shadow: 8px 8px 5px #999;
+	-webkit-box-shadow: 8px 8px 5px #999;
+	box-shadow: 8px 8px 5px #999;
+}
+.xls {
+	display: none;
+}
+
+.ctverec {
+	height: 60px;
+	background-color: #09121b;
+	padding: 8px 0 0 0;
+	border-bottom: 1px solid white;
+	padding-right: 20px;
+}
+
+.serie_name{
+	margin-top: 13px;
+	margin-right: 10px;
+	height: 20px;
+	width: 20px;
+	background-color: white;
+	color:#09121b;
+	float: left;
+	text-align: center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.sedadlo {
+	height: 41px;
+	width: 55px;
+	background-image: url("images/zlate_jednosedadlo.png");
+	background-repeat: no-repeat;
+	float: left;
+	text-align: center;
+	position: relative;
+	margin: 0 5px;
+}
+
+.sedadlo_2 {
+	height: 41px;
+	width: 86px;
+	margin:0 22px;
+	/*background-color: green;*/
+	background-image: url("images/zlate_dvojsedadlo.png");
+	background-repeat: no-repeat;
+	float: left;
+	text-align: center;
+}
+
+/*
+vynechane misto misto sedadla
+*/
+
+.vynechane_misto {
+	height: 50px;
+	width: 55px;
+	float: left;
+	padding: 2px;
+}
+
+#reserved {
+	display: none;
+}
+
+.selected {
+
+}
+
+#head  {
+	background: url("images/promitacka.png") #09121b bottom no-repeat;
+	background-position: right bottom;
+	padding-left: 630px;
+	height: 95px;
+	width: 10px;
+}
+
+#foot {
+	background-color: #09121b;
+	height: 95px;
+	width: 500px;
+}
+
+#left,  #middle, #right {
+	float: left;
+}
+
+#left, #right {
+	float: left;
+	width:152px;
+	height: 470px;
+	padding: 0 10px;
+	background-repeat: no-repeat;
+}
+
+#left {
+	padding-top: 40px;
+	padding-left: 40px
+}
+
+#right {
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+#middle {
+	padding: 0 20px;
+	background-color: #09121b;
+}
+
+#serie_5 {
+	margin-left: 0;
+	margin-right: 220px;
+}
+
+#serie_4 {
+	margin-left: 55px;
+	margin-right: 165px;
+}
+
+#serie_3 {
+	margin-left: 110px;
+	margin-right: 110px;
+}
+
+#serie_2 {
+	margin-left: 165px;
+	margin-right: 55px;
+}
+
+#serie_1 {
+	margin-left: 220px;
+	margin-right: 0;
+}
+
+.float_left {
+	float: left;
+}
+
+#legend_title {
+	margin-right: 20px;
+}
